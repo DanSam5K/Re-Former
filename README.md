@@ -10,13 +10,13 @@ Feel free to add more features when you use or clone this repository.
 
 ## New & Edit
 
-<img src="lib\assets\new_form.PNG" width="48%">
-<img src="lib\assets\edit_form.PNG" width="50%">
+<img src="lib\assets\new_form.PNG" width="45.5%">
+<img src="lib\assets\edit_form.PNG" width="48%">
 
 ## Show & Errors
 
-<img src="lib\assets\show_form.PNG" width="42%">
-<img src="lib\assets\errors_form.PNG" width="56%">
+<img src="lib\assets\show_form.PNG" width="38%">
+<img src="lib\assets\errors_form.PNG" width="50%">
 
 
 ## Built With 🔨
