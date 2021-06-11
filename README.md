@@ -1,11 +1,22 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet) ![](<https://img.shields.io/badge/-Ruby-rgb(199%2C%2032%2C%2039)?style=plastic&logo=ruby>)
 
-# Micro-reddit  <img src="https://image.flaticon.com/icons/png/512/919/919842.png" height="28" width="28">
+# Re-Former  <img src="https://image.flaticon.com/icons/png/512/919/919842.png" height="28" width="28">
 
-Forms are the space to register your data to have a control about any register in a database context, we usually use forms to create data in our database and we can manange this information to different outcomes.
+Forms are the space to register your data to have control about any register in a database context, we usually use forms to create data in our database and we can manage this information to different outcomes.
 
-In this project we use make forms into the framework Ruby on Rails, to practice about the different ways to create a form and having a glace about how the server and the client interact with methods from the terminal.
+In this project we use to make forms into the framework Ruby on Rails, to practice the different ways to create a form and having a glace about how the server and the client interact with methods from the terminal.
 
+Feel free to add more features when you use or clone this repository.
+
+## New & Edit
+
+<img src="lib\assets\new_form.PNG" width="48%">
+<img src="lib\assets\edit_form.PNG" width="50%">
+
+## Show & Errors
+
+<img src="lib\assets\show_form.PNG" width="42%">
+<img src="lib\assets\errors_form.PNG" width="56%">
 
 
 ## Built With 🔨
