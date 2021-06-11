@@ -1,0 +1,17 @@
+<h1> Edit Form</h1>
+
+<%= form_with(model: @user, local: true) do |form|%>
+    <div>
+        <%= form.label :username %>
+        <%= form.text_field :username, placeholder: "Type your username here", value: 'Username Anonymous' %><br>
+        <% @user.errors.full_messages_for(:username).each do |u| %>
+            <%= form.label :email %>
+            <%= form.email_field :email, placeholder: "example@example.com" %><br>
+            <%= form.label :password %>
+            <%= form.password_field :password %><br>
+        <% end %>
+        <%= form.submit %>
+    </div>
+<% end %>
+
+
