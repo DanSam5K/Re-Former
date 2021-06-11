@@ -22,3 +22,13 @@
     <br><%= submit_tag "Create User" %>
  <% end %>
 -->
+
+<%= form_with(model: @user, local: true) do |form|%>
+    <%= form.label :username %>
+    <%= form.text_field :username, placeholder: "Type your username here", value: 'Username Anonymous' %><br>
+    <%= form.label :email %>
+    <%= form.email_field :email, placeholder: "example@example.com" %><br>
+    <%= form.label :password %>
+    <%= form.password_field :password %><br>
+    <%= form.submit %>
+<% end %>
