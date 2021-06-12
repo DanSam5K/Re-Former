@@ -1,0 +1,34 @@
+<h1>Form</h1>
+<!--
+<form action=" <%= users_path %> " method="post" accept-charset="UTF-8">
+<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+<label for="username">Username</label>
+<input type="text" name="user[username]"  id="user_username"/><br>
+<label for="email">Email</label>
+<input type="email" name="user[email]" id="user_email"/><br>
+<label for="password">Password</label>
+<input type="password" name="user[password]" id="user_password"/><br>
+<input type="submit" value="submit"/>
+</form>
+-->
+<!--
+<%= form_tag users_path do %>
+    <label>Username:</label>
+    <br><%= text_field_tag(:username) %>
+    <br><label>Email:</label><br>
+    <%= email_field(:user, :email) %>
+    <br><label>Password:</label><br>
+    <%= password_field_tag(:password) %><br>
+    <br><%= submit_tag "Create User" %>
+ <% end %>
+-->
+
+<%= form_with(model: @user, local: true) do |form|%>
+    <%= form.label :username %>
+    <%= form.text_field :username, placeholder: "Type your username here", value: 'Username Anonymous' %><br>
+    <%= form.label :email %>
+    <%= form.email_field :email, placeholder: "example@example.com" %><br>
+    <%= form.label :password %>
+    <%= form.password_field :password %><br>
+    <%= form.submit %>
+<% end %>
